@@ -38,7 +38,7 @@ def validarNumeros():
     while True:
         num = input()
         try:
-            num = int(num)
+            num = float(num)
             return num
         except ValueError:
             print("Solo se aceptan enteros")   
